@@ -59,7 +59,7 @@ public class ContaCorrente {
     //Método para validar a senha a senha em diveras operações
     private boolean validarSenha(){
         if(isBloqueada()){
-            JOptionPane.showMessageDialog(null, "Sua conta está bloqueada!! \nNão é possivel utilizar está conta. \nPor favor contatar seu gerente de banco para mais informaçoes", "CONTA BLOQUEADA!", 2);
+            JOptionPane.showMessageDialog(null, "Sua conta está bloqueada!!! \nNão é possivel utilizar está conta. \nPor favor contatar seu gerente de banco para mais informaçoes", "CONTA BLOQUEADA!", 2);
             return false;
         }
         
