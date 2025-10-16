@@ -55,7 +55,7 @@ public class Padaria {
             throw new PadariaException(pao.getPassado());
             
         
-        return "Compra realizada com Sucesso!!!\n"+ (quantidade >1?"Foram vendidos ":"Foi vendido ") + quantidade +" "+ (quantidade > 1?"pães fresquinhos!!!":"pão fresquinho!!!");
+        return "Compra realizada com Sucesso!!!!\n"+ (quantidade >1?"Foram vendidos ":"Foi vendido ") + quantidade +" "+ (quantidade > 1?"pães fresquinhos!!!":"pão fresquinho!!!");
     }
     
     private static void expediente(int horas) throws PadariaException{
